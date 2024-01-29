@@ -1,0 +1,14 @@
+[
+  {
+    "accessRoles": [],
+    "applicationI18nFiles": [],
+    "applicationId": "d5de466c-9eeb-419d-9edc-a32fc41ac43f",
+    "applicationName": "Git Controlled Public apps",
+    "applicationState": "DRAFT",
+    "defaultBranch": "main",
+    "description": "asda",
+    "gitUrl": "https://github.com/aelsongit/push_ADLC_TestAutomation_public",
+    "icon": "LogoIconOnlyAnalyticsComponent",
+    "sections": []
+  }
+]
