@@ -1,0 +1,70 @@
+{
+  "description": "asdas",
+  "pageDefinitionId": "ee027e58-3735-43da-96c7-92f1f30ab3c5",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "control_3": {
+            "type": "button",
+            "controlId": "d0d60f11-2af9-4ee6-b219-d52dcbb26150",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "Button2",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
+            "shouldRenderHidden": false
+          },
+          "control_4": {
+            "type": "button",
+            "controlId": "89538200-0232-431b-8ede-623bad050eab",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "Button1",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
+            "shouldRenderHidden": false
+          },
+          "control_5": {
+            "type": "button",
+            "controlId": "8f233e19-f865-4521-ad6e-e8a75ec1649f",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "Button1",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
+            "shouldRenderHidden": false
+          }
+        }
+      }
+    }
+  },
+  "title": "pag45",
+  "versionName": "1.0"
+}
