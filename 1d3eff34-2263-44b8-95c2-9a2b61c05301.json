@@ -1,0 +1,15 @@
+{
+  "description": "das",
+  "pageDefinitionId": "1d3eff34-2263-44b8-95c2-9a2b61c05301",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "title": "page7",
+  "versionName": "1.0"
+}
