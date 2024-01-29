@@ -1,0 +1,15 @@
+{
+  "description": "asdas",
+  "pageDefinitionId": "ee027e58-3735-43da-96c7-92f1f30ab3c5",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "title": "pag45",
+  "versionName": "1.0"
+}
