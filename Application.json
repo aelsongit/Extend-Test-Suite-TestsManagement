@@ -1,5 +1,6 @@
 [
   {
+    "accessRoles": [],
     "applicationId": "d5de466c-9eeb-419d-9edc-a32fc41ac43f",
     "applicationName": "Git Controlled Public apps",
     "applicationState": "DRAFT",
@@ -9,7 +10,7 @@
     "icon": "LogoIconOnlyAnalyticsComponent",
     "sections": [
       {
-        "name": "public apps sections",
+        "name": "public apps section",
         "icon": "Address Book",
         "pageDefinitionId": "ee027e58-3735-43da-96c7-92f1f30ab3c5",
         "description": "asdas",
@@ -20,13 +21,13 @@
         "privileges": null
       },
       {
-        "accessRoles": null,
-        "privileges": null,
         "name": "sectoin2",
         "icon": "Alert Circle",
         "pageDefinitionId": "56d7d8e0-0dff-423f-bd9f-629e56e0d3c3",
         "description": "asdsa",
-        "sections": []
+        "sections": [],
+        "accessRoles": null,
+        "privileges": null
       }
     ]
   }
