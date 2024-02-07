@@ -19,6 +19,15 @@
           "Xactly"
         ],
         "privileges": null
+      },
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "sec4",
+        "icon": "Alert Circle",
+        "pageDefinitionId": "ca7f0d62-27c8-4502-a96f-e96dc7db8379",
+        "description": "asdsa",
+        "sections": []
       }
     ]
   }

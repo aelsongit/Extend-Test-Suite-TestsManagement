@@ -1,0 +1,15 @@
+{
+  "description": "asdsa",
+  "pageDefinitionId": "ca7f0d62-27c8-4502-a96f-e96dc7db8379",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "title": "pag34",
+  "versionName": "1.0"
+}
