@@ -8,6 +8,16 @@
     "description": "asdasd",
     "gitUrl": "https://github.com/aelsongit/push_ADLC_TestAutomation_public",
     "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-    "sections": []
+    "sections": [
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "section1",
+        "icon": "Alert Circle",
+        "pageDefinitionId": "2c20eda8-072f-4bb2-8625-f0038ec610f7",
+        "description": "asdsa",
+        "sections": []
+      }
+    ]
   }
 ]

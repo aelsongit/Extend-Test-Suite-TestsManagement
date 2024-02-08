@@ -1,0 +1,15 @@
+{
+  "description": "asda",
+  "pageDefinitionId": "2c20eda8-072f-4bb2-8625-f0038ec610f7",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "title": "pag34",
+  "versionName": "1.0"
+}
