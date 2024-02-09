@@ -1618,6 +1618,26 @@
             "valueField": true,
             "layoutSize": null,
             "shouldRenderHidden": false
+          },
+          "control_21": {
+            "type": "xsqlWorkflowTrigger",
+            "controlId": "719fce87-4148-48fd-bde3-8b87da62aae4",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "xSQL / Workflow Button",
+            "xSQL": "",
+            "workflowXsql": "",
+            "workflowName": "",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "shouldRenderHidden": false,
+            "shouldRunSync": false
           }
         }
       }
