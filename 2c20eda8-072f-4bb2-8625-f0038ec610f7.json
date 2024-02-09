@@ -1525,6 +1525,250 @@
             "layoutSize": null,
             "shouldRenderHidden": false
           },
+          "control_27": {
+            "type": "slideout",
+            "controlId": "89fece54-ca1a-4802-87d0-2a88db5d5661",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "variables": [],
+            "modalSize": "md",
+            "hasHeader": true,
+            "hasFooter": true,
+            "modalHeaderMessage": "Slideout Test",
+            "pageSchema": {
+              "properties": {},
+              "controlSchema": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "control_28": {
+                      "type": "list",
+                      "controlId": "51628d98-5b8c-4e6b-b8a3-f099f150303b",
+                      "accessRoles": null,
+                      "privileges": null,
+                      "styles": {
+                        "useComponentShadow": false,
+                        "useGreyBackground": false,
+                        "useInnerGreyBackground": false
+                      },
+                      "events": [
+                        {
+                          "name": "$onModalOpen",
+                          "eventSelection": "BIND_EVENT",
+                          "id": "51628d98-5b8c-4e6b-b8a3-f099f150303b",
+                          "handlers": [
+                            "refresh"
+                          ],
+                          "handlerArgs": [
+                            {}
+                          ],
+                          "preHandlers": [],
+                          "preHandlerArgs": []
+                        },
+                        {
+                          "name": "refresh",
+                          "eventSelection": "BIND_EVENT",
+                          "broadcastArgs": {
+                            "validationXsql": ""
+                          },
+                          "id": "51628d98-5b8c-4e6b-b8a3-f099f150303b",
+                          "handlers": [
+                            "refresh"
+                          ],
+                          "handlerArgs": [
+                            {}
+                          ],
+                          "preHandlers": [],
+                          "preHandlerArgs": []
+                        }
+                      ],
+                      "datasource": {
+                        "name": "alldataloads",
+                        "type": "table",
+                        "isReadOnly": false,
+                        "schema": "$framework",
+                        "seriesColors": {}
+                      },
+                      "pagination": {
+                        "currentPage": 1,
+                        "totalItems": null,
+                        "itemsPerPage": 200
+                      },
+                      "columns": [
+                        {
+                          "field": "name",
+                          "name": "name",
+                          "headerName": "name",
+                          "dataType": "string",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "last",
+                          "name": "last",
+                          "headerName": "last",
+                          "dataType": "string",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "descrt",
+                          "name": "descrt",
+                          "headerName": "descrt",
+                          "dataType": "string",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "newcolkju",
+                          "name": "newcolkju",
+                          "headerName": "newcolkju",
+                          "dataType": "string",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "$id",
+                          "name": "$id",
+                          "headerName": "$id",
+                          "dataType": "string",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "$version",
+                          "name": "$version",
+                          "headerName": "$version",
+                          "dataType": "integer",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "$created_by",
+                          "name": "$created_by",
+                          "headerName": "$created_by",
+                          "dataType": "string",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "$created_instant",
+                          "name": "$created_instant",
+                          "headerName": "$created_instant",
+                          "dataType": "instant",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "$modified_by",
+                          "name": "$modified_by",
+                          "headerName": "$modified_by",
+                          "dataType": "string",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        },
+                        {
+                          "field": "$modified_instant",
+                          "name": "$modified_instant",
+                          "headerName": "$modified_instant",
+                          "dataType": "instant",
+                          "editable": false,
+                          "isPrimaryKey": false,
+                          "formattingStyle": "default",
+                          "sortable": false
+                        }
+                      ],
+                      "whereClauseVariable": null,
+                      "maxHeight": null,
+                      "shouldRenderHidden": false,
+                      "variables": [
+                        {
+                          "name": "v_name",
+                          "boundToField": "name"
+                        },
+                        {
+                          "name": "v_last",
+                          "boundToField": "last"
+                        },
+                        {
+                          "name": "v_descrt",
+                          "boundToField": "descrt"
+                        },
+                        {
+                          "name": "v_newcolkju",
+                          "boundToField": "newcolkju"
+                        },
+                        {
+                          "name": "v_$id",
+                          "boundToField": "$id"
+                        }
+                      ],
+                      "selectedField": "",
+                      "selectedVariable": ""
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema": {
+              "properties": {},
+              "controlSchema": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "control_29": {
+                      "type": "workflowButton",
+                      "controlId": "3dfc187a-ccd9-4868-afa2-e473c603697d",
+                      "accessRoles": null,
+                      "privileges": null,
+                      "styles": {
+                        "useComponentShadow": false,
+                        "useGreyBackground": false,
+                        "useInnerGreyBackground": false
+                      },
+                      "events": [],
+                      "controlData": "Submit",
+                      "xSQL": "",
+                      "workflowName": "",
+                      "layoutSize": null,
+                      "buttonColorType": "primary",
+                      "shouldRenderHidden": false,
+                      "shouldRunSync": false
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings": {
+              "pageSchema": "appElements",
+              "footerSchema": "footerElements"
+            },
+            "panelType": "right"
+          },
           "control_17": {
             "type": "ConditionBuilder",
             "controlId": "4f671d8a-3557-45eb-afb6-491379c90d35",
