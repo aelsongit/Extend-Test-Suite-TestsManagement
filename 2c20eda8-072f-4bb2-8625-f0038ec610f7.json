@@ -213,6 +213,31 @@
             "variables": [],
             "title": "FilterBasedonSheet"
           },
+          "control_22": {
+            "type": "UploadSFTP",
+            "controlId": "d06ea40d-c689-41be-8d12-0ddeba7aa77d",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "layoutSize": null,
+            "label": {
+              "text": "Upload Button",
+              "hidden": false
+            },
+            "description": {
+              "text": "",
+              "hidden": false
+            },
+            "variables": [],
+            "allowOverwrite": false,
+            "fileNameVariable": null,
+            "fileNameXsql": null,
+            "shouldRenderHidden": false
+          },
           "control_3": {
             "type": "radioButton",
             "controlId": "9674a750-768b-4487-a29b-52b6f51a1df6",
@@ -301,7 +326,7 @@
             "columns": [],
             "whereClauseVariable": "filter_var",
             "variables": [],
-            "label": "Conditional Builder Radio button Component",
+            "label": "Conditional Builder Test",
             "displayField": "id_number",
             "layoutSize": null,
             "shouldRenderHidden": false
@@ -394,7 +419,7 @@
             "columns": [],
             "whereClauseVariable": "filter_var",
             "variables": [],
-            "label": "Conditional Builder Radio button Component",
+            "label": "Conditional Builder Duplicate",
             "displayField": "id_number",
             "layoutSize": null,
             "shouldRenderHidden": false
@@ -534,7 +559,7 @@
             "modalSize": "md",
             "hasHeader": true,
             "hasFooter": true,
-            "modalHeaderMessage": "Header: ",
+            "modalHeaderMessage": "SlideoutTest",
             "pageSchema": {
               "properties": {},
               "controlSchema": {
@@ -661,13 +686,30 @@
             "modalSize": "md",
             "hasHeader": true,
             "hasFooter": true,
-            "modalHeaderMessage": "Modal component",
+            "modalHeaderMessage": "Modal Test",
             "pageSchema": {
               "properties": {},
               "controlSchema": {
                 "schema": {
                   "type": "object",
-                  "properties": {}
+                  "properties": {
+                    "control_23": {
+                      "type": "date",
+                      "controlId": "ececd367-a025-456b-8bad-aaeb8f0e28dc",
+                      "accessRoles": null,
+                      "privileges": null,
+                      "styles": {
+                        "useComponentShadow": false,
+                        "useGreyBackground": false,
+                        "useInnerGreyBackground": false
+                      },
+                      "events": [],
+                      "variables": [],
+                      "labelText": "Date_ty",
+                      "layoutSize": null,
+                      "shouldRenderHidden": false
+                    }
+                  }
                 }
               }
             },
@@ -676,7 +718,26 @@
               "controlSchema": {
                 "schema": {
                   "type": "object",
-                  "properties": {}
+                  "properties": {
+                    "control_24": {
+                      "type": "button",
+                      "controlId": "2a5a5476-5942-4dd5-a63e-ec518b42bec3",
+                      "accessRoles": null,
+                      "privileges": null,
+                      "styles": {
+                        "useComponentShadow": false,
+                        "useGreyBackground": false,
+                        "useInnerGreyBackground": false
+                      },
+                      "events": [],
+                      "controlData": "Submit",
+                      "layoutSize": null,
+                      "buttonColorType": "primary",
+                      "icon": "",
+                      "iconPosition": "left",
+                      "shouldRenderHidden": false
+                    }
+                  }
                 }
               }
             },
