@@ -1,23 +1,13 @@
 [
   {
     "accessRoles": [],
-    "applicationId": "e0503923-a337-4705-aba3-f5b3360ceeff",
-    "applicationName": "gitHub_AppMeta _Automation249113",
+    "applicationId": "9e36fe65-4c6b-44ee-ade7-9683e470dbb0",
+    "applicationName": "newrepoGitHub",
     "applicationState": "DRAFT",
     "defaultBranch": "main",
-    "description": "asdasd",
+    "description": "asdas",
     "gitUrl": "https://github.com/aelsongit/push_ADLC_TestAutomation_public",
-    "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-    "sections": [
-      {
-        "accessRoles": null,
-        "privileges": null,
-        "name": "section1",
-        "icon": "Alert Circle",
-        "pageDefinitionId": "2c20eda8-072f-4bb2-8625-f0038ec610f7",
-        "description": "asdsa",
-        "sections": []
-      }
-    ]
+    "icon": "LogoIconOnlyAnalyticsComponent",
+    "sections": []
   }
 ]
