@@ -10,12 +10,21 @@
     "icon": "LogoIconOnlyAnalyticsComponent",
     "sections": [
       {
-        "accessRoles": null,
-        "privileges": null,
         "name": "sec1",
         "icon": "Alert Circle",
         "description": "asdas",
-        "sections": []
+        "sections": [
+          {
+            "accessRoles": null,
+            "privileges": null,
+            "name": "sec2",
+            "icon": "Alert Circle",
+            "description": "asda",
+            "sections": []
+          }
+        ],
+        "accessRoles": null,
+        "privileges": null
       }
     ]
   }
