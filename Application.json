@@ -8,6 +8,15 @@
     "description": "adsasd",
     "gitUrl": "https://github.com/aelsongit/push_ADLC_TestAutomation_public",
     "icon": "LogoIconOnlyAnalyticsComponent",
-    "sections": []
+    "sections": [
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "sec1",
+        "icon": "Alert Filled Circle",
+        "description": "asdas",
+        "sections": []
+      }
+    ]
   }
 ]
