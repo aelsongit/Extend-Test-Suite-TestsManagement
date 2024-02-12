@@ -13,7 +13,25 @@
         "name": "sec1",
         "icon": "Alert Circle",
         "description": "asdas",
-        "sections": [],
+        "sections": [
+          {
+            "accessRoles": null,
+            "privileges": null,
+            "name": "sec4",
+            "icon": "Alert Circle",
+            "description": "asdas",
+            "sections": [
+              {
+                "accessRoles": null,
+                "privileges": null,
+                "name": "sec6",
+                "icon": "Alert Circle",
+                "description": "asda",
+                "sections": []
+              }
+            ]
+          }
+        ],
         "accessRoles": null,
         "privileges": null
       }
