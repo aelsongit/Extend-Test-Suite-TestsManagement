@@ -1,40 +1,13 @@
 [
   {
     "accessRoles": [],
-    "applicationId": "9e36fe65-4c6b-44ee-ade7-9683e470dbb0",
-    "applicationName": "newrepoGitHub",
+    "applicationId": "75e0b9ca-825a-4fb8-989a-33f46e4c5cda",
+    "applicationName": "newapps_data1",
     "applicationState": "DRAFT",
     "defaultBranch": "main",
-    "description": "asdas",
+    "description": "adsasd",
     "gitUrl": "https://github.com/aelsongit/push_ADLC_TestAutomation_public",
     "icon": "LogoIconOnlyAnalyticsComponent",
-    "sections": [
-      {
-        "name": "sec1",
-        "icon": "Alert Circle",
-        "description": "asdas",
-        "sections": [
-          {
-            "accessRoles": null,
-            "privileges": null,
-            "name": "sec4",
-            "icon": "Alert Circle",
-            "description": "asdas",
-            "sections": [
-              {
-                "accessRoles": null,
-                "privileges": null,
-                "name": "sec6",
-                "icon": "Alert Circle",
-                "description": "asda",
-                "sections": []
-              }
-            ]
-          }
-        ],
-        "accessRoles": null,
-        "privileges": null
-      }
-    ]
+    "sections": []
   }
 ]
