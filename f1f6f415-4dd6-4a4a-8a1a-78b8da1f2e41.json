@@ -191,6 +191,22 @@
                 ],
                 "preHandlers": [],
                 "preHandlerArgs": []
+              },
+              {
+                "name": "apply_filter",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "5f455142-5570-4164-bfb6-4af57e91400d",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
               }
             ],
             "datasource": {
