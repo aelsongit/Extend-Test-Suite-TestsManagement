@@ -6,7 +6,259 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "label",
+            "controlId": "959be9c6-ec2f-4ca3-8eaa-70970bae7f96",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "<h1><span style=\"color: #ba372a;\">Extend Test Automation Coverage Analysis APP</span></h1>",
+            "layoutSize": null,
+            "intl": false,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosiiton": "right",
+            "helpIconValue": null,
+            "shouldRenderHidden": false
+          },
+          "control_3": {
+            "type": "ConditionBuilder",
+            "controlId": "02b89c7c-71e9-424d-9ae2-e5fc159605e4",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "02b89c7c-71e9-424d-9ae2-e5fc159605e4",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              },
+              {
+                "name": "apply_filter",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "02b89c7c-71e9-424d-9ae2-e5fc159605e4",
+                "handlers": [
+                  "assignCurrentVariable"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "TestCoveragebySuiteName",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [
+              {
+                "field": "testsuitename",
+                "name": "testsuitename",
+                "headerName": "testsuitename",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "testcasename",
+                "name": "testcasename",
+                "headerName": "testcasename",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "testdescription",
+                "name": "testdescription",
+                "headerName": "testdescription",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
+            "whereClauseVariable": null,
+            "variables": [
+              {
+                "name": "coverage_var"
+              }
+            ],
+            "layoutSize": null,
+            "title": "Test Coverages Filter",
+            "shouldRenderHidden": false
+          },
+          "control_4": {
+            "type": "button",
+            "controlId": "8aefc5c3-002e-404b-ac33-c18f22fe9c03",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "apply_filter",
+                "eventSelection": "CREATE_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "8aefc5c3-002e-404b-ac33-c18f22fe9c03",
+                "handlers": [],
+                "handlerArgs": [],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "controlData": "Search>>>>",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
+            "shouldRenderHidden": false
+          },
+          "control_2": {
+            "type": "table",
+            "controlId": "5f455142-5570-4164-bfb6-4af57e91400d",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "5f455142-5570-4164-bfb6-4af57e91400d",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              },
+              {
+                "name": "apply_filter",
+                "eventSelection": "BIND_EVENT",
+                "broadcastArgs": {
+                  "validationXsql": ""
+                },
+                "id": "5f455142-5570-4164-bfb6-4af57e91400d",
+                "handlers": [
+                  "assignWhereClause"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "TestCoveragebySuiteName",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [
+              {
+                "field": "testsuitename",
+                "name": "testsuitename",
+                "headerName": "testsuitename",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "testcasename",
+                "name": "testcasename",
+                "headerName": "testcasename",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "testdescription",
+                "name": "testdescription",
+                "headerName": "testdescription",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
+            "whereClauseVariable": "coverage_var",
+            "variables": [
+              {
+                "name": "v_testsuitename",
+                "boundToField": "testsuitename"
+              },
+              {
+                "name": "v_testcasename",
+                "boundToField": "testcasename"
+              },
+              {
+                "name": "v_testdescription",
+                "boundToField": "testdescription"
+              }
+            ],
+            "table": "grid",
+            "title": "Test Automation Coverage Grid",
+            "maxHeight": null,
+            "shouldRenderHidden": false,
+            "showRowCount": true
+          }
+        }
       }
     }
   },
