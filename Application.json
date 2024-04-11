@@ -1,17 +1,13 @@
-[ {
-  "applicationId" : "918c4627-a709-4836-bc98-17b291cd0b40",
-  "applicationName" : "ExtendRegressionSuitesViewer",
-  "description" : "ExtendRegressionSuitesViewer",
-  "sections" : [ {
-    "name" : "SuiteDetails",
-    "icon" : "Address Book",
-    "pageDefinitionId" : "f803c506-8e59-4de2-a176-61545b641884",
-    "description" : "SuiteDetails",
-    "sections" : [ ],
-    "accessRoles" : null,
-    "privileges" : null
-  } ],
-  "accessRoles" : [ ],
-  "applicationState" : "DRAFT",
-  "applicationI18nFiles" : [ ]
-} ]
+[
+  {
+    "accessRoles": [],
+    "applicationId": "8c2ecc3a-5b2d-4c57-b455-cf3261059661",
+    "applicationName": "Extend_App_GitTests",
+    "applicationState": "DRAFT",
+    "defaultBranch": "main",
+    "description": "asda",
+    "gitUrl": "https://github.com/aelsongit/Extend-Test-Suite-TestsManagement",
+    "icon": "LogoIconOnlyAnalyticsComponent",
+    "sections": []
+  }
+]
