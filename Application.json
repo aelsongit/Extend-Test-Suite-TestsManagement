@@ -1,0 +1,11 @@
+[
+  {
+    "accessRoles": [],
+    "applicationId": "d06f20c9-35f5-4a60-9a23-45d9ee3014cf",
+    "applicationName": "NewAppforExtendGitSuite",
+    "applicationState": "DRAFT",
+    "defaultBranch": "main",
+    "gitUrl": "https://github.com/aelsongit/Extend-Test-Suite-TestsManagement",
+    "sections": []
+  }
+]
