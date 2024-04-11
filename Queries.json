@@ -1,0 +1,19 @@
+[ {
+  "variables" : [ ],
+  "savedInEditor" : true,
+  "isValid" : true,
+  "name" : "countTestsbyXMLs",
+  "description" : null,
+  "id" : "dd61ebca6a1af66f656245cec37d5bb6.ente20df83a497d44436fb087cad826a",
+  "xsql" : "select xmlname, count(*) as TestCount from $framework.TestsCaseCoverages order by xmlname asc",
+  "dependencies" : [ ]
+}, {
+  "variables" : [ ],
+  "savedInEditor" : true,
+  "isValid" : true,
+  "name" : "TestCoveragebySuiteName",
+  "description" : null,
+  "id" : "d765f740484fcfee9ae891af473f9632.ente20df83a497d44436fb087cad826a",
+  "xsql" : "select testsuitename,testcasename,testdescription,xmlname from TestsCaseCoverages group by testsuitename order by testsuitename",
+  "dependencies" : [ ]
+} ]
