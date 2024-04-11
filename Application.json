@@ -1,0 +1,17 @@
+[ {
+  "applicationId" : "918c4627-a709-4836-bc98-17b291cd0b40",
+  "applicationName" : "ExtendRegressionSuitesViewer",
+  "description" : "ExtendRegressionSuitesViewer",
+  "sections" : [ {
+    "name" : "SuiteDetails",
+    "icon" : "Address Book",
+    "pageDefinitionId" : "f803c506-8e59-4de2-a176-61545b641884",
+    "description" : "SuiteDetails",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  } ],
+  "accessRoles" : [ ],
+  "applicationState" : "DRAFT",
+  "applicationI18nFiles" : [ ]
+} ]
